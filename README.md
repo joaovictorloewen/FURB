@@ -1,4 +1,4 @@
-📚 FURB – Projetos Acadêmicos
+# 📚 FURB – Projetos Acadêmicos
 
 Bem-vindo ao repositório FURB, criado para organizar, versionar e acompanhar o desenvolvimento dos projetos, atividades e listas de exercícios produzidos ao longo da graduação.
 
