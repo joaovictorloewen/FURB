@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    font-size: larger;
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.tabela-principal {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabela-principal td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.formulario {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 20px;
+    width: 400px;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.botoes {
+    margin-top: 15px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.comidas li:first-child {
+    font-size: 2em;
+}
+
+.comidas li:last-child {
+    font-size: 0.8em;
+}
+
+.caixa-hover {
+    background-color: #eeeeee;
+    padding: 20px;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.caixa-hover:hover {
+    background-color: yellow;
+}
+
+.tabela-interativa {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tabela-interativa td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tabela-interativa tr:nth-child(odd) {
+    background-color: silver;
+}

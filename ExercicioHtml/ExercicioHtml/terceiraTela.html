@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceira tela</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        Terceira tela
+    </header>
+
+    <main>
+        <h2>Minhas comidas favoritas</h2>
+
+        <ul class="comidas">
+            <li>Pizza</li>
+            <li>Lasanha</li>
+            <li>Hambúrguer</li>
+            <li>Churrasco</li>
+            <li>Sorvete</li>
+        </ul>
+
+        <h2>Div com efeito hover</h2>
+
+        <div class="caixa-hover">
+            <p>
+                Passe o mouse sobre esta caixa para mudar a cor de fundo.
+            </p>
+        </div>
+
+        <h2>Tabela interativa</h2>
+
+        <table class="tabela-interativa">
+            <tr>
+                <td>Célula 1</td>
+                <td>Célula 2</td>
+                <td>Célula 3</td>
+            </tr>
+            <tr>
+                <td>Célula 4</td>
+                <td>Célula 5</td>
+                <td>Célula 6</td>
+            </tr>
+            <tr>
+                <td>Célula 7</td>
+                <td>Célula 8</td>
+                <td>Célula 9</td>
+            </tr>
+            <tr>
+                <td>Célula 10</td>
+                <td>Célula 11</td>
+                <td>Célula 12</td>
+            </tr>
+            <tr>
+                <td>Célula 13</td>
+                <td>Célula 14</td>
+                <td>Célula 15</td>
+            </tr>
+            <tr>
+                <td>Célula 16</td>
+                <td>Célula 17</td>
+                <td>Célula 18</td>
+            </tr>
+            <tr>
+                <td>Célula 19</td>
+                <td>Célula 20</td>
+                <td>Célula 21</td>
+            </tr>
+            <tr>
+                <td>Célula 22</td>
+                <td>Célula 23</td>
+                <td>Célula 24</td>
+            </tr>
+            <tr>
+                <td>Célula 25</td>
+                <td>Célula 26</td>
+                <td>Célula 27</td>
+            </tr>
+            <tr>
+                <td>Célula 28</td>
+                <td>Célula 29</td>
+                <td>Célula 30</td>
+            </tr>
+        </table>
+
+        <p>
+            <a href="index.html">Voltar para a página principal</a>
+        </p>
+    </main>
+
+    <script>
+        const celulas = document.querySelectorAll(".tabela-interativa td");
+
+        celulas.forEach(function(celula) {
+            celula.addEventListener("click", function() {
+                celula.style.backgroundColor = "red";
+            });
+        });
+    </script>
+
+</body>
+</html>
